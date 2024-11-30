@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaccion con Clases CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light-theme">
+    <!-- Contenedor principal -->
+    <div class="container">
+        <h1>Bienvenido a Mi Página</h1>
+        <p>Haz clic en el boton para cambiar el tema.</p>
+        <!-- Botón para cambiar de tema -->
+        <button id="toggleTheme">Cambiar Tema</button>
+    </div>
+
+    <br>
+    <div class="tabs">
+        <button class="tab-button active" data-tab="tab1">Pestaña 1</button>
+        <button class="tab-button" data-tab="tab2">Pestaña 2</button>
+        <button class="tab-button" data-tab="tab3">Pestaña 3</button>
+    </div>
+    <div class="tab-content" id="tab1">Contenido de la Pestaña 1</div>
+    <div class="tab-content hidden" id="tab2">Contenido de la Pestaña 2</div>
+    <div class="tab-content hidden" id="tab3">Contenido de la Pestaña 3</div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
